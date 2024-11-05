@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 public enum BaseResponseStatus {
 
     INVALID_FILE_EXTENSION(false, HttpStatus.BAD_REQUEST, 4003, "지원하지 않는 파일확장자입니다."),
+    NOT_FOUND_S3_FILE(false, HttpStatus.NOT_FOUND, 4005, "S3 파일 서버에 이미지 URL과 일치하는 파일이 존재하지 않습니다."),
     FAIL_FILE_READ(false, HttpStatus.FORBIDDEN, 4009, "파일 업로드에 실패했습니다. 다시 시도해주세요."),
     FAIL_S3_UPLOAD(false, HttpStatus.SERVICE_UNAVAILABLE, 5003, "S3 파일 서버 업로드에 실패했습니다.");
 
@@ -23,4 +24,4 @@ public enum BaseResponseStatus {
         this.code = code;
         this.message = message;
     }
-    }
+}

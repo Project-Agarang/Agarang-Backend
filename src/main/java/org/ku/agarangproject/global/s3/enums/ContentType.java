@@ -1,11 +1,10 @@
 package org.ku.agarangproject.global.s3.enums;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @Getter
 @AllArgsConstructor

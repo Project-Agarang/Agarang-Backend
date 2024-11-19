@@ -1,15 +1,5 @@
 package org.ku.agarangproject.global.s3.utils;
 
-import lombok.extern.slf4j.Slf4j;
-import org.ku.agarangproject.global.exception.BusinessException;
-import org.ku.agarangproject.global.exception.FileException;
-import org.ku.agarangproject.global.model.dto.BaseResponseStatus;
-import org.ku.agarangproject.global.s3.dto.S3File;
-import org.ku.agarangproject.global.s3.enums.ContentType;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-import org.springframework.web.multipart.MultipartFile;
-
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
@@ -18,6 +8,15 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Optional;
 import java.util.UUID;
+import lombok.extern.slf4j.Slf4j;
+import org.ku.agarangproject.global.common.exception.exception.BusinessException;
+import org.ku.agarangproject.global.common.exception.exception.FileException;
+import org.ku.agarangproject.global.common.model.dto.BaseResponseStatus;
+import org.ku.agarangproject.global.s3.dto.S3File;
+import org.ku.agarangproject.global.s3.enums.ContentType;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+import org.springframework.web.multipart.MultipartFile;
 
 @Slf4j
 @Component

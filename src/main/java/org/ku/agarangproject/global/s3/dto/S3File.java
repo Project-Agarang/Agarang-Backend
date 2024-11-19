@@ -1,10 +1,9 @@
 package org.ku.agarangproject.global.s3.dto;
 
+import java.util.Base64;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-import java.util.Base64;
 import org.ku.agarangproject.global.s3.enums.ContentType;
 
 @Getter

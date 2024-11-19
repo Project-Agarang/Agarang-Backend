@@ -44,6 +44,20 @@ dependencies {
     // S3
     implementation platform("software.amazon.awssdk:bom:2.26.20")
     implementation 'software.amazon.awssdk:s3'
+    // Oauth2
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    // JWT
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.3'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.12.3'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.12.3'
+    // Swagger
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+    // Discord Logs
+    implementation 'com.github.napstr:logback-discord-appender:1.0.0'
+    // Redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    // Apache Commons Lang
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
 }
 
 tasks.named('test') {

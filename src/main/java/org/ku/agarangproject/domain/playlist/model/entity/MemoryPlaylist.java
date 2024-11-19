@@ -3,7 +3,7 @@ package org.ku.agarangproject.domain.playlist.model.entity;
 import jakarta.persistence.*;
 import lombok.*;
 import org.ku.agarangproject.domain.memory.model.entity.Memory;
-import org.ku.agarangproject.global.model.entity.BaseEntity;
+import org.ku.agarangproject.global.common.model.entity.BaseEntity;
 
 @Entity
 @Getter

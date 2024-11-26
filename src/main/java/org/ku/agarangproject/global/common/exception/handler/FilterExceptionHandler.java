@@ -1,13 +1,13 @@
 package org.ku.agarangproject.global.common.exception.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kuit.agarang.global.common.exception.exception.BusinessException;
-import com.kuit.agarang.global.common.model.dto.BaseResponse;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import org.ku.agarangproject.global.common.exception.exception.BusinessException;
+import org.ku.agarangproject.global.common.model.dto.BaseResponse;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;

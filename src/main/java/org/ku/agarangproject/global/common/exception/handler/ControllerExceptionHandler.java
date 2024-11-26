@@ -1,10 +1,10 @@
 package org.ku.agarangproject.global.common.exception.handler;
 
-import com.kuit.agarang.global.common.model.dto.BaseResponse;
-import com.kuit.agarang.global.common.model.dto.BaseResponseStatus;
-import com.kuit.agarang.global.common.model.dto.HeaderInfo;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.ku.agarangproject.global.common.model.dto.BaseResponse;
+import org.ku.agarangproject.global.common.model.dto.BaseResponseStatus;
+import org.ku.agarangproject.global.common.model.dto.HeaderInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;

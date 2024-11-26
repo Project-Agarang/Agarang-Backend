@@ -6,6 +6,10 @@ import lombok.*;
 import org.hibernate.annotations.BatchSize;
 import org.ku.agarangproject.domain.baby.model.entity.Baby;
 import org.ku.agarangproject.domain.member.model.entity.Member;
+import org.ku.agarangproject.domain.memory.enums.Genre;
+import org.ku.agarangproject.domain.memory.enums.Instrument;
+import org.ku.agarangproject.domain.memory.enums.Mood;
+import org.ku.agarangproject.domain.memory.enums.Tempo;
 import org.ku.agarangproject.global.common.model.entity.BaseEntity;
 
 @Entity

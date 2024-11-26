@@ -16,6 +16,7 @@ public class Baby extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Setter
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "character_id")
     private Character character;
@@ -26,8 +27,10 @@ public class Baby extends BaseEntity {
     @Column(nullable = false, unique = true)
     private String code;
 
+    @Setter
     private String name;
     private LocalDate dueDate;
+    @Setter
     private Double weight;
 
     @Builder
@@ -43,22 +46,6 @@ public class Baby extends BaseEntity {
         this.code = code;
         this.name = name;
         this.dueDate = dueDate;
-        this.weight = weight;
-    }
-
-    public void setCharacter(Character character) {
-        this.character = character;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setDueDate(LocalDate dueDate) {
-        this.dueDate = dueDate;
-    }
-
-    public void setWeight(Double weight) {
         this.weight = weight;
     }
 }

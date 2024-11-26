@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.ku.agarangproject.domain.baby.model.entity.Baby;
+import org.ku.agarangproject.global.common.model.entity.BaseEntity;
 
 @Entity
 @Getter

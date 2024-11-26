@@ -1,8 +1,8 @@
 package org.ku.agarangproject.global.common.exception.handler;
 
-import com.kuit.agarang.global.common.exception.exception.BusinessException;
-import com.kuit.agarang.global.common.model.dto.BaseResponse;
-import com.kuit.agarang.global.common.model.dto.BaseResponseStatus;
+import org.ku.agarangproject.global.common.exception.exception.BusinessException;
+import org.ku.agarangproject.global.common.model.dto.BaseResponse;
+import org.ku.agarangproject.global.common.model.dto.BaseResponseStatus;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
